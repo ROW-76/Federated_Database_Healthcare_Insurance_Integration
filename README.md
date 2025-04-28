@@ -3,8 +3,6 @@
 
 A federated database application that bridges the gap between healthcare providers and insurance companies using SQL Server and Neo4j.
 
-![System Architecture](docs/images/system-architecture.png)
-
 ## Features
 
 - **Federated Database Architecture**: Combines SQL Server (relational) and Neo4j (graph) databases
@@ -27,19 +25,6 @@ This system uses a federated database approach that:
 2. Manages insurance policies and claims in Neo4j
 3. Unifies data through a consistent API layer
 
-## Screenshots
-
-<table>
-  <tr>
-    <td><img src="docs/images/login-screen.png" alt="Login Screen" width="100%"></td>
-    <td><img src="docs/images/dashboard.png" alt="Dashboard" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="docs/images/patient-management.png" alt="Patient Management" width="100%"></td>
-    <td><img src="docs/images/policy-management.png" alt="Policy Management" width="100%"></td>
-  </tr>
-</table>
-
 ## Installation & Setup
 
 1. Clone the repository
@@ -50,6 +35,3 @@ This system uses a federated database approach that:
 6. Run the backend: `uvicorn main:app --reload`
 7. Run the frontend: `cd frontend && npm start`
 
-## Project Documentation
-
-For a detailed explanation of the project's architecture, database design, and implementation details, see the [comprehensive project report](docs/summary-report.md).
