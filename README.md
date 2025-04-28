@@ -1,55 +1,70 @@
-# Federated_Database_Healthcare_Insurance_Integration
-# Healthcare and Insurance Integration System
+# Getting Started with Create React App
 
-A federated database application that bridges the gap between healthcare providers and insurance companies using SQL Server and Neo4j.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![System Architecture](docs/images/system-architecture.png)
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- **Federated Database Architecture**: Combines SQL Server (relational) and Neo4j (graph) databases
-- **Role-Based Access**: Separate portals for healthcare and insurance professionals
-- **Complete Patient Views**: Unified patient information across medical and insurance systems
-- **Full CRUD Operations**: Comprehensive data management for all entities
-- **RESTful API**: Clean, well-documented API for system interactions
+### `npm start`
 
-## Technology Stack
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- **Backend**: Python, FastAPI, SQLAlchemy, Neo4j Python Driver
-- **Frontend**: React, React Router, CSS
-- **Databases**: Microsoft SQL Server, Neo4j Graph Database
-- **Authentication**: JWT-based authentication with role-based permissions
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## System Architecture
+### `npm test`
 
-This system uses a federated database approach that:
-1. Stores patient and medical data in SQL Server
-2. Manages insurance policies and claims in Neo4j
-3. Unifies data through a consistent API layer
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Screenshots
+### `npm run build`
 
-<table>
-  <tr>
-    <td><img src="docs/images/login-screen.png" alt="Login Screen" width="100%"></td>
-    <td><img src="docs/images/dashboard.png" alt="Dashboard" width="100%"></td>
-  </tr>
-  <tr>
-    <td><img src="docs/images/patient-management.png" alt="Patient Management" width="100%"></td>
-    <td><img src="docs/images/policy-management.png" alt="Policy Management" width="100%"></td>
-  </tr>
-</table>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Installation & Setup
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone the repository
-2. Set up SQL Server and Neo4j instances
-3. Configure environment variables
-4. Install backend dependencies: `pip install -r requirements.txt`
-5. Install frontend dependencies: `cd frontend && npm install`
-6. Run the backend: `uvicorn main:app --reload`
-7. Run the frontend: `cd frontend && npm start`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Project Documentation
+### `npm run eject`
 
-For a detailed explanation of the project's architecture, database design, and implementation details, see the [comprehensive project report](docs/summary-report.md).
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
